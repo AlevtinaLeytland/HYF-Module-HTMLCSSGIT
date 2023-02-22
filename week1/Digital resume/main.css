@@ -1,0 +1,67 @@
+body {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 0, 0, 0),
+      rgba(247, 244, 241, 0.486)
+    ),
+    url(https://cdn.pixabay.com/photo/2019/04/10/12/40/watercolor-4117017_960_720.png);
+  background-repeat: repeat-y;
+  background-position: center;
+}
+
+img {
+  margin-top: 3em;
+}
+header {
+  display: flex;
+
+  justify-content: center;
+}
+.personalInfo {
+  width: 50%;
+  display: grid;
+  grid: auto auto;
+  grid-template-columns: 60% 30%;
+  gap: 5%;
+  margin-left: 5%;
+}
+.aboutMe {
+  font-size: 1.3em;
+  color: rgb(63, 15, 108);
+  line-height: 1.8em;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-size: 1.6em;
+  font-weight: lighter;
+  margin-left: 60%;
+  margin-top: 0;
+}
+h2 {
+  margin: 0 auto;
+  color: rgb(63, 16, 145);
+}
+h3 {
+  margin-left: 35%;
+}
+.education,
+.experience {
+  margin: 0 auto;
+  width: 50%;
+  font-size: 1.3em;
+
+  color: rgb(63, 15, 108);
+  line-height: 1.5em;
+  padding: 0.5em 6em 0.5em 6em;
+}
+ul {
+  list-style-type: square;
+  margin-left: 5%;
+}
+.someAddition {
+  margin-left: 5%;
+  margin-right: 5%;
+}

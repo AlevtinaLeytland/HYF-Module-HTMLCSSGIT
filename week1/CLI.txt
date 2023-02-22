@@ -1,0 +1,29 @@
+1. We can make a hidden file by command:
+ touch .hiddenFile
+
+Filenames beginning with dot are meant to make the file invisible.
+
+We change the visibility of the file by:
+ mv someFile.txt .someFile.txt
+
+We can use the ls -a command to display the hidden file in CLI. 
+
+
+2.We can create multiple nested directories like this:
+
+ mkdir -p myPets/dog myPets/rats iWish/racoon/pictures 
+
+3. To create file from the task #3 we have several methods:
+   - using echo command:
+	echo "first message" > someNewFile.txt
+	echo "second message" >> someNewFile.txt
+
+   - using vim 
+	vim someNewFile.txt 
+		and created messages in a text editor
+	:wq - save and quit.
+
+   - using notepad command or code . 
+   
+   
+	
