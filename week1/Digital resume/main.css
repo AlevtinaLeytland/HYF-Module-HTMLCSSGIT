@@ -8,13 +8,11 @@ body {
   background-repeat: repeat-y;
   background-position: center;
 }
-
 img {
   margin-top: 3em;
 }
 header {
   display: flex;
-
   justify-content: center;
 }
 .personalInfo {
